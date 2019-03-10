@@ -1,0 +1,90 @@
+!define BLANK ""
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\heap_3.obj : D:\wizagit\FreeRTOS_DOS32\F&
+reeRTOSv9.0.0\FreeRTOS\Source\portable\MemMang\heap_3.c .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 ..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\MemMang\heap_3.c -i=C:\W&
+ATCOM\h;..\FreeRTOSv9.0.0\FreeRTOS\Source\include;..\FreeRTOSv9.0.0\FreeRTOS&
+\Source\portable\oWatcom\32BitDOS\common;..\FreeRTOSv9.0.0\FreeRTOS\Source\p&
+ortable\oWatcom\32BitDOS\PC -w4 -e25 -zk1 -zq -otexan -of -d1 -6r -bt=dos -f&
+o=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\portcomn.obj : D:\wizagit\FreeRTOS_DOS32&
+\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\common\portcomn.c &
+.AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 ..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\common\&
+portcomn.c -i=C:\WATCOM\h;..\FreeRTOSv9.0.0\FreeRTOS\Source\include;..\FreeR&
+TOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\common;..\FreeRTOSv9.0.0&
+\FreeRTOS\Source\portable\oWatcom\32BitDOS\PC -w4 -e25 -zk1 -zq -otexan -of &
+-d1 -6r -bt=dos -fo=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\list.obj : D:\wizagit\FreeRTOS_DOS32\Fre&
+eRTOSv9.0.0\FreeRTOS\Source\list.c .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 ..\FreeRTOSv9.0.0\FreeRTOS\Source\list.c -i=C:\WATCOM\h;..\FreeRTOS&
+v9.0.0\FreeRTOS\Source\include;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oW&
+atcom\32BitDOS\common;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32B&
+itDOS\PC -w4 -e25 -zk1 -zq -otexan -of -d1 -6r -bt=dos -fo=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\port.obj : D:\wizagit\FreeRTOS_DOS32\Fre&
+eRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\PC\port.c .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 ..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\PC\port&
+.c -i=C:\WATCOM\h;..\FreeRTOSv9.0.0\FreeRTOS\Source\include;..\FreeRTOSv9.0.&
+0\FreeRTOS\Source\portable\oWatcom\32BitDOS\common;..\FreeRTOSv9.0.0\FreeRTO&
+S\Source\portable\oWatcom\32BitDOS\PC -w4 -e25 -zk1 -zq -otexan -of -d1 -6r &
+-bt=dos -fo=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\queue.obj : D:\wizagit\FreeRTOS_DOS32\Fr&
+eeRTOSv9.0.0\FreeRTOS\Source\queue.c .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 ..\FreeRTOSv9.0.0\FreeRTOS\Source\queue.c -i=C:\WATCOM\h;..\FreeRTO&
+Sv9.0.0\FreeRTOS\Source\include;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\o&
+Watcom\32BitDOS\common;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32&
+BitDOS\PC -w4 -e25 -zk1 -zq -otexan -of -d1 -6r -bt=dos -fo=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\tasks.obj : D:\wizagit\FreeRTOS_DOS32\Fr&
+eeRTOSv9.0.0\FreeRTOS\Source\tasks.c .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 ..\FreeRTOSv9.0.0\FreeRTOS\Source\tasks.c -i=C:\WATCOM\h;..\FreeRTO&
+Sv9.0.0\FreeRTOS\Source\include;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\o&
+Watcom\32BitDOS\common;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32&
+BitDOS\PC -w4 -e25 -zk1 -zq -otexan -of -d1 -6r -bt=dos -fo=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\main.obj : D:\wizagit\FreeRTOS_DOS32\Dem&
+oDOS32\main.c .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 main.c -i=C:\WATCOM\h;..\FreeRTOSv9.0.0\FreeRTOS\Source\include;..\&
+FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\common;..\FreeRTOSv&
+9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\PC -w4 -e25 -zk1 -zq -otexan&
+ -of -d1 -6r -bt=dos -fo=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\supporting_functions.obj : D:\wizagit\Fr&
+eeRTOS_DOS32\DemoDOS32\supporting_functions.c .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ *wcc386 supporting_functions.c -i=C:\WATCOM\h;..\FreeRTOSv9.0.0\FreeRTOS\So&
+urce\include;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\com&
+mon;..\FreeRTOSv9.0.0\FreeRTOS\Source\portable\oWatcom\32BitDOS\PC -w4 -e25 &
+-zk1 -zq -otexan -of -d1 -6r -bt=dos -fo=.obj -mf
+
+D:\wizagit\FreeRTOS_DOS32\DemoDOS32\DemoDOS32.exe : D:\wizagit\FreeRTOS_DOS3&
+2\DemoDOS32\heap_3.obj D:\wizagit\FreeRTOS_DOS32\DemoDOS32\portcomn.obj D:\w&
+izagit\FreeRTOS_DOS32\DemoDOS32\list.obj D:\wizagit\FreeRTOS_DOS32\DemoDOS32&
+\port.obj D:\wizagit\FreeRTOS_DOS32\DemoDOS32\queue.obj D:\wizagit\FreeRTOS_&
+DOS32\DemoDOS32\tasks.obj D:\wizagit\FreeRTOS_DOS32\DemoDOS32\main.obj D:\wi&
+zagit\FreeRTOS_DOS32\DemoDOS32\supporting_functions.obj .AUTODEPEND
+ @D:
+ cd D:\wizagit\FreeRTOS_DOS32\DemoDOS32
+ @%write DemoDOS32.lk1 FIL heap_3.obj,portcomn.obj,list.obj,port.obj,queue.o&
+bj,tasks.obj,main.obj,supporting_functions.obj
+ @%append DemoDOS32.lk1 
+ *wlink name DemoDOS32 sys dos4g op maxe=25 op q op symf @DemoDOS32.lk1
+
